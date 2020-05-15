@@ -4,8 +4,19 @@ background-image: url("img/header.png");
 background-size: cover;
 
 }
+
 #navbar {
 background-color: #56534C;
 opacity: 0.8;
 
+}
+
+#buttonOurMenu{
+background-color: #56534C;
+border-radius: 0;
+border: 2px dotted white;
+padding-left: 64px;
+padding-right: 64px;
+padding-top: 8px;
+padding-bottom: 8px;
 }
