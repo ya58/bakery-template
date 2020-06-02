@@ -6,10 +6,6 @@
 }
 
 
-
-
-
-
 #navbar {
   background-color: #56534C;
   opacity: 0.8;
@@ -26,11 +22,13 @@
 }
 
 #logoB{
-  margin-top: 550px
+  margin-top: 300px
 
 }
 
-
+.h{
+  margin-top: 150px
+}
 
 .text-color-brown {
   color: #a47d5e
@@ -112,7 +110,7 @@
 }
 
 #section3-row {
-  background-color: white;
+  background-color:;
 }
 
 #season {
@@ -192,13 +190,19 @@ z-index: 5;
   text-align: center;
   z-index: 200;
 }
+.debut{
+order: 0;
+
+}
 
 /* on fixe la largeur du bloc (optionnel)
    et on le définit comme référent */
 blockquote {
     position: relative;
-    width: 500px;
-    padding: 200px;
+    width: 450px;
+height: 550px;
+padding-left: 20px;
+padding-right:
 }
 /* on ajoute des effets graphiques
    sur nos futures feuilles */
@@ -228,16 +232,50 @@ blockquote:before {
 }
 
 .img-sand{
-  width: 800px
+  width: 900px
 }
 
-
+.a{
+align-self: justify;
+  background-color: white
+}
 
 #a{
-  width: 800px;
+  margin-top: 50px;
+  width: 400px;
   	height: 100px;
+    margin-bottom: 50px
 }
 
+#buttonRead {
+  background-color: white;
+  border-radius: 0;
+  border: 1px solid #a47d5e;
+  padding-left: 64px;
+  padding-right: 64px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  margin-top: 20px;
+  margin-bottom: 8px
+
+}
+
+
+.mm{
+  padding-top: 10px;
+  margin-left: 10px;
+  margin-top: 10px;
+  margin-right: 10px;
+  margin-bottom: 100px;
+  border: 2px dashed black;
+
+}
+.te{
+
+    padding-top: 50px;
+    padding-left: 20px;
+    padding-right: 20px
+}
 
 .photo-r {
   border-radius: 100px;
